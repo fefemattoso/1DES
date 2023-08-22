@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.pink {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(253, 37, 188);
+    border: 2px solid black;
+}
+.yellow {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+.blue {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(14, 129, 252);
+    border: 2px solid black;
+}
+
+.container {
+    border: 10px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+}
