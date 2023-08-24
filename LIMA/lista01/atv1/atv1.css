@@ -1,9 +1,11 @@
-body {
-    display: flex;
-}
 .b{
     display: flex;
+    justify-content: space-between;
+    width: 50vh;
 }
 .c{
     display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 50vh;
 }

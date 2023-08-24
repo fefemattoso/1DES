@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+}
+
+header {
+    height: 33.33%;
+    background-color: rgb(253, 37, 188);
+}
+main{
+    height: 33.33%;
+    background-color: yellow;
+}
+footer{
+    height: 33.33%;
+    background-color: blue;
+}

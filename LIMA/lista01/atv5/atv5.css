@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+[class^="bola"] {
+    width: 44px;
+    height: 20px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid pink;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    
+}
+.bolaRosa {
+    background-image: radial-gradient(circle at 12px 10px, #fff 0px, #fff 5px, #000 6px);
+}
+.bolaAmarela {
+    background-image:   radial-gradient(circle at 12px 10px, #fff 0px, #fff 5px, transparent 6px),
+                        radial-gradient(circle at 22px 10px, #00f 0px, #00f 5px, #000 6px);
+}
+.bolaAzul {
+    background-image:   radial-gradient(circle at 12px 10px, #fff 0px, #fff 5px, transparent 6px),
+                        radial-gradient(circle at 22px 10px, #00f 0px, #00f 5px, transparent 6px),
+                        radial-gradient(circle at 32px 10px, #f00 0px, #f00 5px, #000 6px);
+}
