@@ -1,28 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body {
-    height: 100vh;
-}
-.container {
-    justify-content: center;
-    align-items: center;
+main {
     display: flex;
-}
-
-.pink{
     height: 100vh;
-    width: 100vh;
-    background-color: rgb(253, 37, 188);
 }
-.yellow{
+.pink {
+    width: 100vw;
     height: 100vh;
-    width: 100vh;
+    background-color: pink;
+}
+.yellow {
+    width: 100vw;
+    height: 100vh;
     background-color: yellow;
 }
-.blue{
+.blue {
+    width: 100vw;
     height: 100vh;
-    width: 100vh;
     background-color: blue;
 }
