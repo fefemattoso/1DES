@@ -34,6 +34,7 @@ main {
 
 .ff div {
     margin: 10px;
+    justify-content: center;
 }
 
 .gg {
