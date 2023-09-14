@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Comfortaa', cursive;
+    background-color: rgb(172, 218, 172);
 }
 
 header{
@@ -49,4 +50,14 @@ span{
     width: 100px;
     border: 2px solid rgb(15, 115, 187);
     box-sizing: border-box;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.filtros{
+    border:
 }
