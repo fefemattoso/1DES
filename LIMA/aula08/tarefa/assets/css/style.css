@@ -41,13 +41,12 @@ span{
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    
+    row-gap: 20px;    
 }
 
 .box{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border: 2px solid rgb(15, 115, 187);
     box-sizing: border-box;
 }
@@ -56,8 +55,15 @@ span{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .filtros{
     align-items: center;
+    border: 2px;
+}
+
+.produtos{
+    width: 195px;
+    height: 195px;
 }
