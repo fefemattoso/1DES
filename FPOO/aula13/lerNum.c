@@ -9,7 +9,7 @@ int main(){
 	int n1, n2, n3;
 	float media;
 	
-	entrada = fopen ("arquivo.txt", "r");
+	entrada = fopen ("resultado.txt", "r");
 	if(entrada == NULL)
 		printf("Erro, não foi possivel abrir o arquivo\n");
 	else{
