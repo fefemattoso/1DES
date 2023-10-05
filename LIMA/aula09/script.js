@@ -107,3 +107,22 @@
 
 // do{}while()
 
+// let arr = "a b c d e".split(" ");
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+// arr.forEach(item => {
+//     console.log(item);
+// })
+
+// for (let item of arr) {
+//     console.log(item);
+// }
+
+// function ex1() {
+//     console.log("EXECUTANDO A FUNCAO EX1");
+// }
+
+// ex1();
