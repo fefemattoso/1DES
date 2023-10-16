@@ -1,11 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<mai>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <main></main>
-</body>
-</html>
+<!DOCTYPE html> 
+ <html lang="en"> 
+  
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <link rel="stylesheet" href="style.css"> 
+     <title>IMC</title> 
+ </head> 
+  
+ <body onload="atualizaTabela()"> 
+     <header>
+	<main> 
+         <table> 
+             <thead> 
+                 <tr> 
+                     <th>Nome</th> 
+                     <th>Nascimento</th> 
+                     <th>Sexo</th> 
+                     <th>Idade</th> 
+                     <th>Classificação</th> 
+                 </tr> 
+             </thead> 
+             <tbody id="corpoTabela"></tbody> 
+         </table> 
+     </main> 
+         <form id="novaPessoa"> 
+             <input type="text" name="nome" placeholder="Nome completo" required> 
+             <input type="date" name="nascimento" required> 
+             <select name="sexo"> 
+                 <option value="F">Feminino</option> 
+                 <option value="M">Masculino</option> 
+             </select> 
+             <input type="submit" value="Inserir"> 
+         </form> 
+     </header> 
+ </body> 
+ <script src="pessoas.js"></script> 
+  
+ </html>
