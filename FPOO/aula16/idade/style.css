@@ -1,0 +1,81 @@
+* { 
+     margin: 0; 
+     padding: 0; 
+     box-sizing: border-box; 
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ } 
+  
+ body { 
+     background: #9bc66f; 
+     display: flex; 
+     flex-direction: column; 
+     justify-content: center; 
+     align-items: center; 
+     min-height: 100vh; 
+ } 
+  
+ header { 
+     position: relative; 
+     display: flex; 
+     flex-direction: column; 
+     justify-content: space-between; 
+     align-items: center; 
+     margin: 20px;
+     width: 100%; 
+     max-width: 1100px; 
+     padding: 0 20px; 
+      
+ } 
+  
+ form { 
+     width: 100%; 
+     max-width: 800px; 
+     display: flex; 
+     flex-direction: row; 
+     justify-content: center; 
+     align-items: center; 
+     margin: 20px; 
+ } 
+  
+ form input, select { 
+     width: 100%; 
+     height: 40px; 
+     background: #d37ea7; 
+     border: 0; 
+     border-radius: 8px; 
+     padding: 0 24px; 
+     font-size: 18px;  
+     margin: 5px; 
+ } 
+  
+ form input[type="submit"] { 
+     background: #333; 
+     color: #fff; 
+     box-shadow: 1px 1px 5px #333; 
+     cursor: pointer; 
+ } 
+  
+ table { 
+     width: 100vw; 
+     max-width: 800px; 
+     border-collapse: collapse; 
+     border: 1px solid #3a5930; 
+     margin: 20px; 
+ } 
+  
+ table tr { 
+     width: 98%; 
+     border-bottom: 1px solid #3a5930; 
+ } 
+  
+ table tr th { 
+     background: #333; 
+     color: #fff; 
+     padding: 10px; 
+     text-align: center; 
+ } 
+  
+ table tr td { 
+     padding: 10px; 
+     text-align: center; 
+ }
