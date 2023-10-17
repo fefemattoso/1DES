@@ -31,7 +31,15 @@ div{
     background-color: rgb(105, 51, 5); 
     box-shadow: 1px 1px 5px black; 
     padding:40px; 
-    margin:20px 
+    margin:20px;
+    margin-left: 30%;
+    margin-right: 30%; 
 } 
+
+h3{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
  
 
