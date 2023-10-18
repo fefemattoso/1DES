@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(251, 171, 203);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 75px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.446);
+    background-color: rgb(245, 114, 157);
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    grid: 40px;
+    margin: 20px;
+    
+}
