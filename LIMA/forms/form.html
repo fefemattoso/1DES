@@ -1,0 +1,124 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form">
+        <p class="title">Register </p>
+        <p class="message">Signup now and get full access to our app. </p>
+            <div class="flex">
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>Firstname</span>
+            </label>
+    
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>Lastname</span>
+            </label>
+        </div>  
+                
+        <label>
+            <input required="" placeholder="" type="email" class="input">
+            <span>Email</span>
+        </label> 
+            
+        <label>
+            <input required="" placeholder="" type="password" class="input">
+            <span>Password</span>
+        </label>
+        <label>
+            <input required="" placeholder="" type="password" class="input">
+            <span>Confirm password</span>
+        </label>
+        <button class="submit">Submit</button>
+        <p class="signin">Already have an acount? <a href="#">Signin</a> </p>
+    </form>
+    <script>
+        const form = document.getElementById("registrationForm");
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // Evitar o envio do formulário por padrão
+
+            // Capturar os valores dos campos
+            const firstName = document.getElementById("firstName").value;
+            const lastName = document.getElementById("lastName").value;
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const confirmPassword = document.getElementById("confirmPassword").value;
+
+            // Exibir os valores no console (você pode fazer o que quiser com eles aqui)
+            console.log("Firstname:", firstName);
+            console.log("Lastname:", lastName);
+            console.log("Email:", email);
+            console.log("Password:", password);
+            console.log("Confirm Password:", confirmPassword);
+        });
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form" id="registrationForm">
+        <p class="title">Register</p>
+        <p class="message">Signup now and get full access to our app.</p>
+        <div class="flex">
+            <label>
+                <input required="" placeholder="" type="text" class="input" id="firstName">
+                <span>Firstname</span>
+            </label>
+            <label>
+                <input required="" placeholder="" type="text" class="input" id="lastName">
+                <span>Lastname</span>
+            </label>
+        </div>
+        <label>
+            <input required="" placeholder="" type="email" class="input" id="email">
+            <span>Email</span>
+        </label>
+        <label>
+            <input required="" placeholder="" type="password" class="input" id="password">
+            <span>Password</span>
+        </label>
+        <label>
+            <input required="" placeholder="" type="password" class="input" id="confirmPassword">
+            <span>Confirm password</span>
+        </label>
+        <button class="submit">Submit</button>
+        <p class="signin">Already have an account? <a href="#">Signin</a> </p>
+    </form>
+
+    <script>
+        const form = document.getElementById("registrationForm");
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // Evitar o envio do formulário por padrão
+
+            // Capturar os valores dos campos
+            const firstName = document.getElementById("firstName").value;
+            const lastName = document.getElementById("lastName").value;
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const confirmPassword = document.getElementById("confirmPassword").value;
+
+            // Exibir os valores no console (você pode fazer o que quiser com eles aqui)
+            console.log("Firstname:", firstName);
+            console.log("Lastname:", lastName);
+            console.log("Email:", email);
+            console.log("Password:", password);
+            console.log("Confirm Password:", confirmPassword);
+        });
+    </script>
+</body>
+</html>
