@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: rgba(235,196,107,1);
+    background: rgb(114,127,74);
+    background: linear-gradient(90deg, rgba(114,127,74,1) 0%, rgba(145,104,48,1) 66%, rgba(53,37,37,1) 100%);
 }
 
 header{
@@ -86,6 +87,15 @@ span{
     justify-content: center;
 }
 
+.card {
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+
+  .card:hover {
+    transform: scale(1.1); /* Efeito de escala ao passar o mouse */
+  }
+
 .principal{
     display: flex;
     flex-direction: row;
@@ -106,3 +116,100 @@ h3{
     border-radius: 20px;
 }
 
+/* Adicione estilos conforme necessário */
+
+.ficha-tecnica {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.ficha-conteudo {
+    margin-bottom: 20px;
+}
+
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.ficha-tecnica.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-100%); /* Adiciona um deslocamento para cima na animação */
+}
+
+
+
+/* 
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 260px;
+    perspective: 1000px;
+    font-family: sans-serif;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid coral;
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front {
+    background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
+       rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
+    color: coral;
+  }
+  
+  .flip-card-back {
+    background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
+       bisque 40%, rgb(255, 185, 160) 78%);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .imgDINO{
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+  } */

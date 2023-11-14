@@ -23,48 +23,110 @@
     </main>
     <div class="principal">
         <div class="grid">
-            <div class="card">
+            <div class="card" onclick="showInfo('rex')">
                 <img src="assets/img/rex.jpeg" class="img">
                 <h3>Tyrannosaurus Rex</h3>
             </div>
-            <div class="card">
-                <img src="assets/img/rex.jpeg" class="img">
+            <div class="card" onclick="showInfo('Velociraptor')">
+                <img src="assets/img/velociraptor.jpg" class="img">
                 <h3>Velociraptor</h3>
             </div>
-            <div class="card">
-                <img src="assets/img/rex.jpeg" class="img">
+            <div class="card" onclick="showInfo('Triceratops')">
+                <img src="assets/img/triceratops.jpg" class="img">
                 <h3>Triceratops</h3>
             </div>
-            <div class="card">
-                <img src="assets/img/rex.jpeg" class="img">
+            <div class="card" onclick="showInfo('Brachiosaurus')">
+                <img src="assets/img/brachiossauro.jpg" class="img">
                 <h3>Brachiosaurus</h3>
             </div>
-            <div class="card">
-                <img src="assets/img/rex.jpeg" class="img">
+            <div class="card" onclick="showInfo('Stegosaurus')">
+                <img src="assets/img/stegosaurus.jpg" class="img">
                 <h3>Stegosaurus</h3>
             </div>
-            <div class="card">
-                <img src="assets/img/rex.jpeg" class="img">
+            <div class="card" onclick="showInfo('Apatosaurus')">
+                <img src="assets/img/apatossaurus.jpg" class="img">
                 <h3>Apatosaurus</h3>
             </div>
-            <div class="card">
-                <img src="assets/img/rex.jpeg" class="img">
+            <div class="card" onclick="showInfo('Ankylosaurus')">
+                <img src="assets/img/ankylosaurus.jpg" class="img">
                 <h3>Ankylosaurus</h3>
             </div>
-            <div class="card">
-                <img src="assets/img/rex.jpeg" class="img">
+            <div class="card" onclick="showInfo('Spinosaurus')">
+                <img src="assets/img/spinosaurus.jpg" class="img">
                 <h3>Spinosaurus</h3>
             </div>
-            <div class="card">
-                <img src="assets/img/rex.jpeg" class="img">
+            <div class="card" onclick="showInfo('Styracosaurus')">
+                <img src="assets/img/styracosaur.jpg" class="img">
                 <h3>Styracosaurus</h3>
             </div>
-            <div class="card">
-                <img src="assets/img/rex.jpeg" class="img">
+            <div class="card" onclick="showInfo('Pteranodon')">
+                <img src="assets/img/pteranodon.jpg" class="img">
                 <h3>Pteranodon</h3>
             </div>
         </div>
+
     </div>
+    <div class="ficha-tecnica show" id="ficha-rex">
+        <div class="ficha-conteudo">
+            <!-- Conteúdo da ficha técnica -->
+            <h2>Tyrannosaurus Rex</h2>
+            <p><strong>Habitat:</strong> América do Norte.</p>
+            <p><strong>Alimentação:</strong> Carnívoro.</p>
+            <p><strong>Nome Popular:</strong> Tiranossauro Rex.</p>
+            <p><strong>Site com imagem:</strong> <a href="#">Link</a></p>
+        </div>
+        <span class="fechar" onclick="fecharFicha('rex')">X</span>
+    </div>
+
+    <div class="ficha-tecnica" id="ficha-Velociraptor">
+        <div class="ficha-conteudo">
+            <!-- Conteúdo da ficha técnica -->
+            <h2>Tyrannosaurus Rex</h2>
+            <p><strong>Habitat:</strong> América do Norte.</p>
+            <p><strong>Alimentação:</strong> Carnívoro.</p>
+            <p><strong>Nome Popular:</strong> Tiranossauro Rex.</p>
+            <p><strong>Site com imagem:</strong> <a href="#">Link</a></p>
+        </div>
+        <span class="fechar" onclick="fecharFicha('Velociraptor')">X</span>
+    </div>
+
+    <div class="ficha-tecnica" id="ficha-rex">
+        <div class="ficha-conteudo">
+            <!-- Conteúdo da ficha técnica -->
+            <h2>Tyrannosaurus Rex</h2>
+            <p><strong>Habitat:</strong> América do Norte.</p>
+            <p><strong>Alimentação:</strong> Carnívoro.</p>
+            <p><strong>Nome Popular:</strong> Tiranossauro Rex.</p>
+            <p><strong>Site com imagem:</strong> <a href="#">Link</a></p>
+        </div>
+        <span class="fechar" onclick="fecharFicha('rex')">X</span>
+    </div>
+
+    <div class="ficha-tecnica" id="ficha-rex">
+        <div class="ficha-conteudo">
+            <!-- Conteúdo da ficha técnica -->
+            <h2>Tyrannosaurus Rex</h2>
+            <p><strong>Habitat:</strong> América do Norte.</p>
+            <p><strong>Alimentação:</strong> Carnívoro.</p>
+            <p><strong>Nome Popular:</strong> Tiranossauro Rex.</p>
+            <p><strong>Site com imagem:</strong> <a href="#">Link</a></p>
+        </div>
+        <span class="fechar" onclick="fecharFicha('rex')">X</span>
+    </div>
+
+    <div class="ficha-tecnica" id="ficha-rex">
+        <div class="ficha-conteudo">
+            <!-- Conteúdo da ficha técnica -->
+            <h2>Tyrannosaurus Rex</h2>
+            <p><strong>Habitat:</strong> América do Norte.</p>
+            <p><strong>Alimentação:</strong> Carnívoro.</p>
+            <p><strong>Nome Popular:</strong> Tiranossauro Rex.</p>
+            <p><strong>Site com imagem:</strong> <a href="#">Link</a></p>
+        </div>
+        <span class="fechar" onclick="fecharFicha('rex')">X</span>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
 
@@ -137,3 +199,22 @@ Habitat: América do Norte.
 Alimentação: Piscívoro (peixes).
 Nome Popular: Pteranodonte.
 Site com imagem: [Link](insira um link) -->
+
+<!-- <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p class="title">Tyrannosaurus Rex</p>
+                    <img src="assets/img/rex.jpeg" class="imgDINO">
+                    <p>Hover Me</p>
+                </div>
+                <div class="flip-card-back">
+                            <h2>Tyrannosaurus Rex</h2>
+                            <p><strong>Habitat:</strong> América do Norte.</p>
+                            <p><strong>Alimentação:</strong> Carnívoro.</p>
+                            <p><strong>Nome Popular:</strong> Tiranossauro Rex.</p>
+                            <p><strong>Site com imagem:</strong> <a href="#">Link</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
