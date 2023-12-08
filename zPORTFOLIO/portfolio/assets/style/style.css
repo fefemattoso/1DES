@@ -212,19 +212,26 @@ main {
     background-color: rgb(137, 105, 151);
     text-align: center;
     align-items: center;
-    background-image: url(../imgs/about.gif);
+    background-image: url(https://cdn.gencraft.com/prod/user/0ede3881-272c-4860-9640-c71a909130d5/a2e00e36-830a-453b-bded-918dccf9fc49/image/image1_0.jpg?Expires=1702131203&Signature=YQk4ZxpPt-jHK1HXsyjdqDTL9hQX5hKZuoOE3nY454o9MxRlqqDMmyHp-RAxAicE744z8LJxVi7pHvQ-hFBwBDXF7gvDaTYE4NNAcXuvB9dYmBtF1cLBcZcpks1imwBs5MtEWwInuwP1khIMKmMtrdttDN5xIIjo0BXpCBZ7CJKRtkH1NZmqj3GVwJFBxmNJGDLWY0e7GLyeEgbDJx5q4SEtslfBDR6jw6Ov8WaExFPt5~AWE6MTiM5S8pp~G-66m5grLgxsImZMxmxAog1OJ5n~z482FluVz7EaJJXkOWJZdh67DeQMWllrPaA3rhBs31pJidiEsJyzx66jTQLUfQ__&Key-Pair-Id=K3RDDB1TZ8BHT8);
+    
 }
 
 #projects {
     background-color: rgb(83, 159, 102);
+    text-align: center;
+    align-items: center;
 }
 
 #skills {
     background-color: rgb(127, 158, 220);
+    text-align: center;
+    align-items: center;
 }
 
 #contact {
     background-color: rgb(253, 153, 217);
+    text-align: center;
+    align-items: center;
 }
 
 nav {
@@ -265,6 +272,28 @@ h2 {
     border-style: solid;
     border-radius: 280px;
     transform: rotate(300deg);
+}
+
+.aboutinfos{
+    
+}
+
+.icon{
+    border-radius: 400px;
+
+}
+
+#icon{
+    width: 150px;
+    height: 150px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
 }
 
 /* Media Queries */
